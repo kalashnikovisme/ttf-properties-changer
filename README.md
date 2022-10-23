@@ -3,6 +3,8 @@ Change properties of ttf-fonts
 
 ## Usage
 
+**You need [docker](https://docs.docker.com/engine/install/) to be installed**
+
 1. Clone this repo OR download `.zip` [here](https://github.com/kalashnikovisme/ttf-properties-changer/archive/refs/heads/main.zip) and unarchive it
 2. Open Terminal
 3. `cd ttf-properties-changer`
