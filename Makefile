@@ -8,4 +8,4 @@ to_ttf:
 	docker run --volume ${PWD}:/usr/share/ fonttools ttx -o /usr/share/MartianMono-CnBd-fixed.ttf /usr/share/MartianMono-CnBd.ttx && sudo chown pavel MartianMono-CnBd-fixed.ttf
 
 replace:
-	docker run --volume ${PWD}:/usr/share/ fonttools python /usr/share/change.py
+	docker run --volume ${PWD}:/usr/share/ fonttools python /usr/share/change.py /usr/share/MartianMono-CnBd.ttx 
