@@ -6,4 +6,4 @@ docker run --volume $PWD:/usr/share/ fonttools python /usr/share/change.py /usr/
 rm -f $f
 docker run --volume $PWD:/usr/share/ fonttools ttx -o /usr/share/$f /usr/share/font_xml.ttx
 sudo chown $USER $f
-# rm -f font_xml.ttx
+rm -f font_xml.ttx
